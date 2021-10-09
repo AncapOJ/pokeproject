@@ -1,0 +1,120 @@
+body {
+    background-color:cadetblue;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    
+}
+
+.poke {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.poke__item {
+    width: 340px;
+    cursor: pointer;
+    padding:20px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.466);
+    font-weight: bold;
+}
+
+.grass {
+    color: green;
+    margin-left: 20px;
+}
+
+.poison {
+    color: purple;
+    margin-left: 20px;
+}
+
+.fire {
+    color: orangered;
+    margin-left: 20px;
+}
+
+.flying {
+    color: rgb(68, 90, 110);
+    margin-left: 20px;
+}
+
+.water {
+    color: rgb(58, 188, 240);
+    margin-left: 20px;
+}
+
+.bug {
+    color:greenyellow;
+    margin-left: 20px;
+}
+
+.normal {
+    color:gray;
+    margin-left: 20px;
+}
+
+.electric {
+    color:yellow;
+    margin-left: 20px;
+}
+
+.ground {
+    color:burlywood;
+    margin-left: 20px;
+}
+
+.fairy {
+    color:rgb(243, 197, 231);
+    margin-left: 20px;
+}
+
+.fighting {
+    color:brown;
+    margin-left: 20px;
+}
+
+.psychic {
+    color:rgb(241, 48, 232);
+    margin-left: 20px;
+}
+
+.steel {
+    color:grey;
+    margin-left: 20px;
+}
+
+
+.ice {
+    color:rgb(155, 243, 239);
+    margin-left: 20px;
+}
+
+
+.rock {
+    color:rgb(143, 91, 13);
+    margin-left: 20px;
+}
+
+
+.dragon {
+    color:purple;
+    margin-left: 20px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornsilk;
+    margin-top: 40px;
+}
