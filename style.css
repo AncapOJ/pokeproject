@@ -42,84 +42,171 @@ body {
   font-weight: bold;
 }
 
+@media (max-width: 550px) {
+  .poke__item {
+    width: 250px;
+    font-size: 13px;
+  }
+}
+
 .grass {
-  color: green;
+  background-image: url(/images/Tipo_planta.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .poison {
-  color: purple;
+  background-image: url(/images/Tipo_veneno.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .fire {
-  color: orangered;
+  background-image: url(/images/Tipo_fuego.gif);
+  background-position: center;
+  background-size: cover;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .flying {
-  color: #445a6e;
+  background-image: url(/images/Tipo_volador.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .water {
-  color: #3abcf0;
+  background-image: url(/images/Tipo_agua.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .bug {
-  color: greenyellow;
+  background-image: url(/images/Tipo_bicho.gif);
+  background-position: center;
+  background-size: cover;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .normal {
-  color: gray;
+  background-image: url(/images/Tipo_normal.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .electric {
-  color: yellow;
+  background-image: url(/images/Tipo_elec.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .ground {
-  color: burlywood;
+  background-image: url(/images/Tipo_tierra.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .fairy {
-  color: #f3c5e7;
+  background-image: url(/images/Tipo_hada.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .fighting {
-  color: brown;
+  background-image: url(/images/Tipo_lucha.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .psychic {
-  color: #f130e8;
+  background-image: url(/images/Tipo_psi.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .steel {
-  color: grey;
+  background-image: url(/images/Tipo_acero.gif);
+  background-position: center;
+  background-size: cover;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .ice {
-  color: #9bf3ef;
+  background-image: url(/images/Tipo_hielo.gif);
+  background-position: center;
+  background-size: cover;
+  min-width: 60x;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .rock {
-  color: #8f5b0d;
+  background-image: url(/images/Tipo_roca.gif);
+  background-position: center;
+  background-size: cover;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .dragon {
-  color: purple;
+  background-image: url(/images/Tipo_drag.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 60px;
+  min-height: 18px;
   margin-left: 20px;
+  color: rgba(245, 245, 245, 0);
 }
 
 .footer {

@@ -10,7 +10,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/?limit=150')
     for (item of list){
         console.log(item);
         let newpoke = document.createElement('div');
-        newpoke.textContent=counter+': '+item.name.toUpperCase();
+        newpoke.textContent=counter+'. '+item.name.toUpperCase();
         newpoke.className="poke__item";
         let container = document.querySelector('.poke');
         container.appendChild(newpoke);

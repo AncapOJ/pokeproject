@@ -25,89 +25,174 @@ body {
     border-radius: 10px;
     background-color: rgba(245, 245, 245, 0.466);
     font-weight: bold;
+
+    @media (max-width: 550px) {
+        width: 250px;
+        font-size: 13px;
+    }
 }
 
 .grass {
-    color: green;
+    background-image: url(/images/Tipo_planta.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .poison {
-    color: purple;
+    background-image: url(/images/Tipo_veneno.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .fire {
-    color: orangered;
+    background-image: url(/images/Tipo_fuego.gif);
+    background-position: center;
+    background-size: cover;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .flying {
-    color: rgb(68, 90, 110);
+    background-image: url(/images/Tipo_volador.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .water {
-    color: rgb(58, 188, 240);
+    background-image: url(/images/Tipo_agua.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .bug {
-    color:greenyellow;
+    background-image: url(/images/Tipo_bicho.gif);
+    background-position: center;
+    background-size: cover;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .normal {
-    color:gray;
+    background-image: url(/images/Tipo_normal.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .electric {
-    color:yellow;
+    background-image: url(/images/Tipo_elec.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .ground {
-    color:burlywood;
+    background-image: url(/images/Tipo_tierra.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .fairy {
-    color:rgb(243, 197, 231);
+    background-image: url(/images/Tipo_hada.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .fighting {
-    color:brown;
+    background-image: url(/images/Tipo_lucha.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .psychic {
-    color:rgb(241, 48, 232);
+    background-image: url(/images/Tipo_psi.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 .steel {
-    color:grey;
+    background-image: url(/images/Tipo_acero.gif);
+    background-position: center;
+    background-size: cover;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 
 .ice {
-    color:rgb(155, 243, 239);
+    background-image: url(/images/Tipo_hielo.gif);
+    background-position: center;
+    background-size: cover;
+    min-width: 60x;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 
 .rock {
-    color:rgb(143, 91, 13);
+    background-image: url(/images/Tipo_roca.gif);
+    background-position: center;
+    background-size: cover;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 
 .dragon {
-    color:purple;
+    background-image: url(/images/Tipo_drag.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 60px;
+    min-height: 18px;
     margin-left: 20px;
+    color:rgba(245, 245, 245, 0);
 }
 
 
