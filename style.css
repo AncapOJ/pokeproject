@@ -1,5 +1,5 @@
 body {
-  background-color: cadetblue;
+  background-color: white;
 }
 
 .header {
@@ -38,7 +38,7 @@ body {
   margin-bottom: 10px;
   border: 2px solid black;
   border-radius: 10px;
-  background-color: rgba(245, 245, 245, 0.466);
+  background-color: rgba(145, 134, 134, 0.466);
   font-weight: bold;
 }
 
@@ -219,7 +219,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: cornsilk;
+  color: black;
   margin-top: 40px;
 }
 /*# sourceMappingURL=style.css.map */
